@@ -1,17 +1,59 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+const links = [
+  {
+    name: "Home",
+    href: "/"
+  },
+  {
+    name: "Store",
+    href: "/store"
+  },
+  {
+    name: "Hemp Education",
+    href: "/hemp-education"
+  },
+  {
+    name: "Legal",
+    href: "/legal"
+  },
+]
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+root.render(
+  <>
+    <div className="header-wrapper">
+      <div className="header">
+        <div className="header-inner">
+          <div className="logo-text">
+            <h1>The Remedy</h1>
+            <h2>Hemp-derived CBD products (including Delta-8)</h2>
+          </div>
+          <div className="navbar">
+            {links.map((o) => {
+              return (
+                <a onClick={() => window.location.href = (o.href)}>
+                  {o.name}
+                </a>
+              )
+            })}
+          </div>
+          <h3>{links.find((link) => link.href === window.location.href)?.name}</h3>
+        </div>
+      </div>
+    </div>
+    <div className="center-col">
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </div>
+    <button onClick={() => window.location.href = ("#!/~/cart")} className="cart-button">
+      Cart
+    </button>
+  </>
+);
