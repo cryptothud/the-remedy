@@ -2,6 +2,9 @@
   "name": "the-remedy",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "@ecwid/nextjs-ecwid-plugin": "^0.1.1",
     "@testing-library/jest-dom": "^5.14.1",
