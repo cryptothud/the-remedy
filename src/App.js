@@ -3,7 +3,7 @@ import Home from "./components/Home"
 import Store from "./components/Store"
 
 function App() {
-
+ console.log("hi!")
   return (
     <Routes>
       <Route path="/" element={<Home />} />
