@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
 
@@ -48,9 +48,9 @@ root.render(
       </div>
     </div>
     <div className="center-col">
-      <BrowserRouter>
+      <HashRouter>
         <App />
-      </BrowserRouter>
+      </HashRouter>
     </div>
     <button onClick={() => window.location.href = ("#!/~/cart")} className="cart-button">
       Cart
