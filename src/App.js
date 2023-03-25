@@ -17,6 +17,8 @@ async function getIpfsContentAddress() {
 function App() {
   const [ipfsContentAddress, setIpfsContentAddress] = useState('');
 
+  console.log(ipfsContentAddress)
+
   useEffect(() => {
     async function fetchIpfsContentAddress() {
       const contentAddress = await getIpfsContentAddress();
