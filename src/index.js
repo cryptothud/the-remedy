@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { HashRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
 
@@ -48,9 +47,7 @@ root.render(
       </div>
     </div>
     <div className="center-col">
-      <HashRouter>
-        <App />
-      </HashRouter>
+      <App />
     </div>
     <button onClick={() => window.location.href = ("#!/~/cart")} className="cart-button">
       Cart
