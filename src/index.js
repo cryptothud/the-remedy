@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import { BrowserRouter, Link } from 'react-router-dom';
 
 const links = [
   {
@@ -25,7 +26,7 @@ const links = [
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <>
+  <BrowserRouter>
     <div className="header-wrapper">
       <div className="header">
         <div className="header-inner">
@@ -36,9 +37,9 @@ root.render(
           <div className="navbar">
             {links.map((o) => {
               return (
-                <a onClick={() => window.location.href = (o.href)}>
+                <Link to={o.href}>
                   {o.name}
-                </a>
+                </Link>
               )
             })}
           </div>
@@ -52,5 +53,5 @@ root.render(
     <button onClick={() => window.location.href = ("#!/~/cart")} className="cart-button">
       Cart
     </button>
-  </>
+  </BrowserRouter>
 );
