@@ -22,9 +22,3 @@ function App() {
 }
 
 export default App;
-
-/*
-
-  TODO: hook up email to contact page
-
-*/
