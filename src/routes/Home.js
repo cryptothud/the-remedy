@@ -7,12 +7,10 @@ function Home() {
 
   const navigate = useNavigate();
 
+
   useEffect(() => {
     document.title = 'Home | The Remedy';
   }, []);
-
-  console.log(window.location.href)
-  console.log(window.location.pathname)
 
   return (
     <>
