@@ -23,7 +23,7 @@ function Home() {
               <button onClick={() => { navigate("/store"); window.scrollTo(0, 0) }}>Visit Store</button>
             </div>
           </div>
-          <img src="/store.png" alt="Store" className="store-image" />
+          <img src="https://nftstorage.link/ipfs/bafybeibhulhxh7bsfkjgkfwfbpruyl4zhphdbjrfg44ic755allsyzfpt4/store.png" alt="Store" className="store-image" />
         </div>
         <h2>We offer the highest quality of legal hemp derived CBD products all with third party lab testing. Full Spectrum & THC free CBD oils, vape oils/cartridges/pods, edibles, flower, topicals/lotions/salves, isolated, shatters & pet treats/oils/topicals.</h2>
         <Team />

@@ -58,31 +58,31 @@ function Legal() {
     <>
       <div className="container legal">
         <h1 className="store-title">Legal Resources</h1>
-        <a className="pdf-link" href="/legal/Senator-Nelson-Proposal.pdf" target="_blank">
+        <a className="pdf-link" href="https://nftstorage.link/ipfs/bafybeibdxypqzt4aiozna6sns73b66qxyeablyp4rswttvqau5nws2yhou/Senator-Nelson-Proposal.pdf" target="_blank" rel="noreferrer">
           <PDFIcon />
           <h1>Senator-Nelson-Proposal.pdf (Approved)</h1>
         </a>
-        <a className="pdf-link" href="https://bafybeiejmwd5wevawhqcx6vh6uc4tdota67mk3qihs2rexdqxqj6kpnlwa.ipfs.nftstorage.link/Resubmittal-of-Proposed-VI-Cannabis-Use-Act.pdf" target="_blank">
+        <a className="pdf-link" href="https://bafybeiejmwd5wevawhqcx6vh6uc4tdota67mk3qihs2rexdqxqj6kpnlwa.ipfs.nftstorage.link/Resubmittal-of-Proposed-VI-Cannabis-Use-Act.pdf" target="_blank" rel="noreferrer">
           <PDFIcon />
           <h1>Resubmittal-of-Proposed-VI-Cannabis-Use-Act.pdf</h1>
         </a>
-        <a className="pdf-link" href="/legal/CAOA-Detailed-Summary.pdf" target="_blank">
+        <a className="pdf-link" href="https://nftstorage.link/ipfs/bafybeibdxypqzt4aiozna6sns73b66qxyeablyp4rswttvqau5nws2yhou/CAOA-Detailed-Summary.pdf" target="_blank" rel="noreferrer">
           <PDFIcon />
           <h1>CAOA-Detailed-Summary.pdf</h1>
         </a>
-        <a className="pdf-link" href="/legal/CAOA-Fact-Sheet.pdf" target="_blank">
+        <a className="pdf-link" href="https://nftstorage.link/ipfs/bafybeibdxypqzt4aiozna6sns73b66qxyeablyp4rswttvqau5nws2yhou/CAOA-Fact-Sheet.pdf" target="_blank" rel="noreferrer">
           <PDFIcon />
           <h1>CAOA-Fact-Sheet.pdf</h1>
         </a>
-        <a className="pdf-link" href="/legal/CAOA-Discussion-Draft.pdf" target="_blank">
+        <a className="pdf-link" href="https://nftstorage.link/ipfs/bafybeibdxypqzt4aiozna6sns73b66qxyeablyp4rswttvqau5nws2yhou/CAOA-Discussion-Draft.pdf" target="_blank" rel="noreferrer">
           <PDFIcon />
           <h1>CAOA-Discussion-Draft.pdf</h1>
         </a>
-        <a className="pdf-link" href="/legal/2022-02-07-Medicinal-Cannabis-Act-R-R.pdf" target="_blank">
+        <a className="pdf-link" href="https://nftstorage.link/ipfs/bafybeibdxypqzt4aiozna6sns73b66qxyeablyp4rswttvqau5nws2yhou/2022-02-07-Medicinal-Cannabis-Act-R-R.pdf" target="_blank" rel="noreferrer">
           <PDFIcon />
           <h1>2022-02-07-Medicinal-Cannabis-Act-R-R.pdf</h1>
         </a>
-        <a className="pdf-link" href="/legal/Cannabis-Final-Amendment.pdf" target="_blank">
+        <a className="pdf-link" href="https://nftstorage.link/ipfs/bafybeibdxypqzt4aiozna6sns73b66qxyeablyp4rswttvqau5nws2yhou/Cannabis-Final-Amendment.pdf" target="_blank" rel="noreferrer">
           <PDFIcon />
           <h1>Cannabis-Final-Amendment.pdf</h1>
         </a>
