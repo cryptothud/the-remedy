@@ -62,7 +62,7 @@ function Legal() {
           <PDFIcon />
           <h1>Senator-Nelson-Proposal.pdf (Approved)</h1>
         </a>
-        <a className="pdf-link" href="/legal/Resubmittal-of-Proposed-VI-Cannabis-Use-Act.pdf" target="_blank">
+        <a className="pdf-link" href="https://bafybeiejmwd5wevawhqcx6vh6uc4tdota67mk3qihs2rexdqxqj6kpnlwa.ipfs.nftstorage.link/Resubmittal-of-Proposed-VI-Cannabis-Use-Act.pdf" target="_blank">
           <PDFIcon />
           <h1>Resubmittal-of-Proposed-VI-Cannabis-Use-Act.pdf</h1>
         </a>
