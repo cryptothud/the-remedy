@@ -11,6 +11,9 @@ function Home() {
     document.title = 'Home | The Remedy';
   }, []);
 
+  console.log(window.location.href)
+  console.log(window.location.pathname)
+
   return (
     <>
       <div className="container home">

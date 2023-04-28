@@ -3,10 +3,10 @@ import Partners from "../components/Partners";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react"
 
-function Education() {
+function Terms() {
 
   useEffect(() => {
-    document.title = 'Hemp Education | The Remedy';
+    document.title = 'Terms & Policies | The Remedy';
   }, []);
 
   return (
@@ -81,4 +81,4 @@ function Education() {
 
 }
 
-export default Education;
+export default Terms;

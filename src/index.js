@@ -4,14 +4,14 @@ import './index.css';
 import App from './App';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <HashRouter>
+  <BrowserRouter>
     <Navbar />
     <App />
     <Footer />
-  </HashRouter>
+  </BrowserRouter>
 );
