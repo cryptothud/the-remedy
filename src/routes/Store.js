@@ -53,7 +53,7 @@ function Store() {
     return (
       <>
         {url === "/store" && <h1 className="store-title">Store</h1>}
-        <button onClick={() => window.location.href = ("#!/~/cart")} className="cart-button">
+        <button onClick={() => { window.location.href = ("#!/~/cart"); window.scrollTo(0, 0) }} className="cart-button">
           {(cartItems && +cartItems > 0) ? <div className="amount">{cartItems}</div> : <></>}
           <svg className="icon-default" width="36" height="30" viewBox="0 0 36 30" xmlns="http://www.w3.org/2000/svg">
             <g fill="none" fillRule="evenodd">
